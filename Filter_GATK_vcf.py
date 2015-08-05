@@ -1,6 +1,7 @@
 ##This python script takes the vcf output from GATK Unified Genotyper and filter low quality variants based multiple criteria as mentioned below.
 ## The script has been inspired from a similar script from Heng Li but here I have added many more criteria to filter or flag low confident reads.
 ## I have implemented some global filters including removal of adjacent indels, snps adjacent to indels and multiple snps or indels within a very short stretch.
+## Please reference: A genomic analysis of allele-specific expression in the mouse liver submitted in G3/2015/018309
 
 #!/usr/bin/python
 
